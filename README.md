@@ -46,6 +46,10 @@ PRs are always welcome!
 | bi    | `bun init`                | Start an empty Bun project from a blank template            |
 | bin   | `bun install`             | Install dependencies for a package.json                     |
 | biny  | `bun install --yarn`      | Install dependencies and save lock file in yarn@v1 style    |
+| bga   | `bun add --global`        | Install packages globally on your operating system          |
+| bgls  | `bun pm ls --global`      | List global installed packages                              |
+| bgrm  | `bun remove --global`     | Remove global installed packages from your OS               |
+| bgu   | `bun update --global`     | Upgrade packages installed globally to their latest version |
 | br    | `bun run`                 | Run JavaScript with Bun, a package.json script, or a bin    |
 | brun  | `bun run`                 | Run JavaScript with Bun, a package.json script, or a bin    |
 | bst   | `bun run start`           | Run the start script defined in `package.json`              |

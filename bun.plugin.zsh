@@ -11,6 +11,12 @@ alias bin='bun install'
 alias bu='bun update'
 alias biny='bun install --yarn'
 
+# Global dependencies
+alias bga='bun add --global'
+alias bgls='bun pm ls --global'
+alias bgrm='bun remove --global'
+alias bgu='bun update --global'
+
 # Run scripts
 alias br='bun run'
 alias brun='bun run'
